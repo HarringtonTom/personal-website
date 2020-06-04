@@ -31,6 +31,7 @@ If you improve the app in any way a PR would be very apreciated ;)
 
 4. Install dependencies and run build command:
 ```console
+> cd personal-website
 > npm install
 > npm run build
 ```
