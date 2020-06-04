@@ -22,7 +22,14 @@ If you improve the app in any way a PR would be very apreciated ;)
 
 2. Update the *resume.json* with your personal information (check [JSON Resume](https://jsonresume.org/))
 
-3. Install dependencies and run build command:
+3. Install packages:
+```console
+> curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+> sudo bash nodesource_setup.sh
+> sudo apt install nodejs
+```
+
+4. Install dependencies and run build command:
 ```console
 > npm install
 > npm run build
