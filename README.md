@@ -41,7 +41,11 @@ You can also test the app with a development server, just run:
 ```console
 > npm start
 ```
-
+4. Crontab:
+```console
+> crontab -e
+> @reboot 'npm start' 1> /dev/null 2> /home/user/logs.err
+```
 ## Contributing
 
 Feel free to fork this project and customize with your personal info. If you implement any nice features or improvements I'd really appreciate if you could open a PR to this project ;)
