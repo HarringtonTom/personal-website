@@ -43,9 +43,9 @@ You can also test the app with a development server, just run:
 ```
 4. Crontab:
 ```console
-> sudo chmod +x /personal-website/developmentserver.sh
+> sudo chmod +x /home/user/personal-website/developmentserver.sh
 > crontab -e
-> @reboot '/personal-website/developmentserver.sh' 1> /dev/null 2> /home/user/logs.err
+> @reboot '/home/user/personal-website/developmentserver.sh' 1> /dev/null 2> /home/user/logs.err
 ```
 ## Contributing
 
